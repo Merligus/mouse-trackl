@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c9ded"/>
+      <stop offset="1" stop-color="#2563a8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#bg)"/>
+  <!-- mouse body -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18.5 13.5 h3.5 a6.5 6.5 0 0 1 6.5 6.5 v8 a6.5 6.5 0 0 1 -6.5 6.5 h-3.5
+             a6.5 6.5 0 0 1 -6.5 -6.5 v-8 a6.5 6.5 0 0 1 6.5 -6.5 z"/>
+    <!-- split between the two main buttons -->
+    <path d="M20.25 13.6 v6.4"/>
+    <!-- scroll wheel -->
+    <path d="M20.25 23.4 v3.2"/>
+  </g>
+  <!-- polling trace: the rate being sampled -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M31.5 31 v-4 h3 v-7 h3 v9 h3 v-5"/>
+  </g>
+</svg>

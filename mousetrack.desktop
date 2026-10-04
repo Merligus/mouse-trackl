@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MouseTrack
+GenericName=Mouse telemetry
+Comment=Measure mouse DPI, polling rate and pointer sensitivity
+Exec=/home/merligus/projects/mousetrack/bin/mousetrack
+TryExec=/home/merligus/projects/mousetrack/bin/mousetrack
+Icon=mousetrack
+Terminal=false
+Categories=Utility;
+Keywords=mouse;dpi;polling;rate;hz;sensibilidade;sensitivity;input;
+StartupWMClass=mousetrack
+X-KDE-StartupNotify=true
